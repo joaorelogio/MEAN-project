@@ -2,7 +2,7 @@
 Angular, Nodejs, MongoDB & Express (MEAN) - Tutorial for Beginners - Getting Started
 
 ## Youtube Tutorial
-https://www.youtube.com/watch?v=1tRLveSyNz8 - 58:54 minutos
+https://www.youtube.com/watch?v=1tRLveSyNz8 - 1:15:00 minutos
 
 # MEANProject
 
