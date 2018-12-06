@@ -6,4 +6,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 main {
   width: 80%;
   margin: 1rem auto;
+
+  .text-center {
+    text-align: center;
+  }
 }

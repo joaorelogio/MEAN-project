@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'MEAN-project';
+  storedPosts = [];
+
+  onPostsAdded(post) {
+    this.storedPosts.push(post);
+  }
 }
