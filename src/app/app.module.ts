@@ -11,8 +11,6 @@ import { HeaderComponent } from './header/header.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
