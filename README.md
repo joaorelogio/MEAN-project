@@ -2,7 +2,7 @@
 Angular, Nodejs, MongoDB & Express (MEAN) - Tutorial for Beginners - Getting Started
 
 ## Udemy - Angular & NodeJS - The MEAN Stack Guide
-working in - "37. Fetching Initial Posts"
+working in - "55. Transforming Response Data"
 
 ## MongoDB user
 joao - 0OQiICxHO9Nmnhcv

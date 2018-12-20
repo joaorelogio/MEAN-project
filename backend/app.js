@@ -1,9 +1,17 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const Post  = require('./models/post')
 
 const app = express();
+
+mongoose.connect('mongodb+srv://joao:0OQiICxHO9Nmnhcv@cluster0-lpgp6.mongodb.net/node-angular?retryWrites=true')
+  .then(() => {
+    console.log('Connect to database!');
+  }).catch(() => {
+    console.log('Connection failed!');
+  });
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -26,29 +34,20 @@ app.post('/api/posts', (req, res, next) => {
     title: req.body.title,
     content: req.body.content
   });
-  console.log(post);
+  post.save();
   res.status(201).json({
     message: 'Post added successfully!'
   });
 });
 
 app.get('/api/posts',(req, res, next) => {
-  const posts = [
-    {
-      id: 'fsfjkhsdkjfdh',
-      title: 'First server-side post',
-      content: 'This is coming from the server'
-    },
-    {
-      id: 'hyhdfgrgdg',
-      title: 'Second server-side post',
-      content: 'This is coming from the server!'
-    }
-  ];
-  res.status(200).json({
-    message: 'Posts fetched successfully!',
-    posts: posts
-  });
+  Post.find()
+    .then(documents => {
+      res.status(200).json({
+        message: 'Posts fetched successfully!',
+        posts: documents
+      });
+    });
 });
 
 module.exports = app;
