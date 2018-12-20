@@ -4,6 +4,9 @@ Angular, Nodejs, MongoDB & Express (MEAN) - Tutorial for Beginners - Getting Sta
 ## Udemy - Angular & NodeJS - The MEAN Stack Guide
 working in - "37. Fetching Initial Posts"
 
+## MongoDB user
+joao - 0OQiICxHO9Nmnhcv
+
 # MEANProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
