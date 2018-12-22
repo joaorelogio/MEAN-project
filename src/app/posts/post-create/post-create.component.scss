@@ -10,3 +10,7 @@ mat-card {
     margin: auto;
   }
 }
+
+input[type="file"] {
+  visibility: hidden;
+}
