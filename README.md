@@ -2,7 +2,7 @@
 Angular, Nodejs, MongoDB & Express (MEAN) - Tutorial for Beginners - Getting Started
 
 ## Udemy - Angular & NodeJS - The MEAN Stack Guide
-working in - "69. Adding Loading Spinners"
+working in - "75. Adding an Image Preview"
 
 ## MongoDB user
 joao - 0OQiICxHO9Nmnhcv
